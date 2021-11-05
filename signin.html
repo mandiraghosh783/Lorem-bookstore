@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+    .order{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid red;
+        background-color: wheat;
+        border-radius: 20px;
+        padding:50px;
+        font-family: 'Baloo Bhai 2', cursive;
+        flex-wrap: wrap;
+    }
+    .goback a{text-decoration: none;
+        color:black;
+
+        
+    }
+    button:hover{
+        background-color: yellowgreen;
+        color: white;
+    }
+    .submit:hover{
+        background-color: yellowgreen;
+        color: black;
+    }
+    .reset:hover{
+        background-color: red;
+        color: white;
+    }
+    
+
+    
+</style>
+<body>
+    
+<div class="order" >
+    <div class="ordernow"><h1>Order now</h1></div><br><br>
+<form action="#" method="get">
+    
+         <label for="meraname">
+     FULL NAME<input type="text" placeholder="enter full name" class="name" name="Myname" id="meraname" required>
+     </label>
+     <br><br>
+     
+         <label for="meramale">
+     MALE<input type="radio" name="Mymale" id="meramale" class="male" required>
+     </label>
+     <label for="merafemale">
+         FEMALE<input type="radio" name="Myfemale" id="merafemale" class="female">  
+     </label>
+     <label for="meraother">
+        OTHER<input type="radio" name="Myother" id="meraother" class="other">  
+    </label>
+     <br><br>
+     
+     <!--<label for="meraeligibility">
+     ARE YOU ABOVE 18? <input type="checkbox" name="Myeligibility" id="meraeligibility" >
+     </label></div><br><br>-->
+     <label for="meraemail">
+     EMAIL-ID<input type="email" name="Myemail" class="email" id="meraemail" required>
+     </label><BR><BR>
+         <label for="merapass">
+             ENTER PASSWORD<input type="password" name="Mypass" class="pass" id="merpass" placeholder="minimum 8 characters">
+         </label><br><br>
+            <label for="meraphno">
+                ENTER PASSWORD<input type="number" name="Myphone" class="phno" id="merphno" placeholder="10 digit phone no">
+            </label><br><br>
+
+         <label for="meradob">
+            DATE OF BIRTH <input type="date" name="Mydob" class="dob" id="meradob">
+         </label><BR><BR>
+            <label for="meracourse">
+                SELECT YOUR GENRE<select name="Mycourse" id="meracourse" class="course">
+                    <option value="science fiction">SCIENCE-FICTION</option>
+                    <option value="FAN-FICTION">FAN-FICTION</option>
+                    <option value="HISTORICAL">HISTORICAL</option>
+                    <option value="adult">ADULT</option>
+                    <option value="HORROR">HORROR</option>
+                    <option value="EDUCATIONAL">EDUCATIONAL</option>
+                    <option value="INDIAN WORKS">INDIAN WORKS</option>
+                    <option value="NON FICTIONAL">NON FICTIONAL</option>
+                    <option value="MYTHOLOGICAL">MYTHOLOGICAL</option>
+
+                </select>
+                
+            </label>
+            <BR><BR>
+             <label for="merabook">
+                 NAME OF THE BOOK YOU WANT TO ORDER<BR>
+                 <textarea name="Mybook" id="merabook" cols="30" rows="3"></textarea>
+             </label><BR><BR>
+                <label for="meraauthor">
+                    NAME OF THE AUTHOR OF THE BOOK YOU WANT TO PURCHASE<BR>
+                    <textarea name="Myauthor" id="meraauthor" cols="30" rows="3"></textarea>
+                </label><BR><BR>
+                    <label for="meraadd">
+                        KINDLY ENTER YOUR ADDRESS<BR>
+                        <textarea name="Myadd" id="meraadd" cols="30" rows="10"></textarea>
+                    </label><BR><BR>
+                
+                 
+                     <INPUT type="submit" value="SUBMIT" class="submit">
+                     <input type="reset" value="RESET" class="reset"><BR><BR>
+                 <BUTTon class="goback"><a href="lorem.html">GO BACK TO HOMEPAGE</a></BUTTon><br><br>
+                 </form>
+                 <!--<div class="description">
+                     <h3>OUR MOTTO</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam repudiandae atque, nemo tempora aliquid porro repellat laborum similique tempore quis! Cumque odit praesentium voluptates necessitatibus rem neque, iusto quisquam inventore fugit amet. Voluptas.</p>
+                 </div>-->
+
+ 
+</div>
+</body>
+</html>
